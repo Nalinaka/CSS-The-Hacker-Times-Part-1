@@ -1,1 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+/* latin-ext */
+title {
+    font-family: Source Sans pro;
+}
+header {  Font-family: Abril Fatface;
+          text-align: center;
+    
+}
+
+Article title {
+    Font-family: Roboto Slab;
+    text-align: center;
+
+}
+
+article {
+    width: 30%;
+    font-size: justify;
+}
+
+Body { 
+    background-color: #eee;
+    border: #eee;
+    text-align: center;
+
+}
+
+Newspaper {
+    background-color: white;
+    box-shadow: #ddd;
+    text-align: center;
+} 
+
+    
+h5 {
+    color: #dd3232;
+    text-align: center;
+}
+
+Navigation links {
+    color: #777;
+}
+
+h2 {
+        font-family: Abril Fatface
+        text-align: center;
+}
+
+section {
+    display: inline-block;
+    width: 700px;
+    text-align: center;
+}
+
+div {
+    width: 700 px;
+    border-radius: 100%;
+    box-shadow: #ddd;
+    text-align: center;
+}
+
+h3 {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    color: black;
+    font-size: 60%;
+}
+
+navigation div {
+    display: inline-block;
+    text-align: center;
+}
+
+date div {
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
+
+placeholder image {
+    display: inline-block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    position: absolute;
+    text-align: justify;
+}
+
+container div {
+    margin-top: 15%;
+    margin-left: 10%;
+
+}

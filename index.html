@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link CSS to HTML</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Hacker Times</title>
 </head>
 <body>
@@ -15,18 +17,17 @@
       <h1>The Hacker Times</h1>
     </header>
     <!-- navigation -->
-    <nav>
-      <ul>
-        <li><a href="#">HTML & CSS</a></li>
-        <li><a href="#">UX & UI</a></li>
-        <li><a href="#">JAVASCRIPT</a></li>
-        <li><a href="#">EXPRESS</a></li>
-        <li><a href="#">MONGODB</a></li>
-        <li><a href="#">REACT</a></li>
-        <li><a href="#">CYBERSECURITY</a></li>
-        <li><a href="#">PYTHON</a></li>
-      </ul>
-    </nav>
+    <section>
+    <div class="navigation-container"></div>
+      <h3><a href="#">HTML & CSS</a></h3>
+      <h3><a href="#">UX & UI</a></h3>
+      <h3><a href="#">JAVASCRIPT</a></h3>
+      <h3><a href="#">EXPRESS</a></h3>
+      <h3><a href="#">MONGODB</a></h3>
+      <h3><a href="#">REACT</a></h3>
+      <h3><a href="#">CYBERSECURITY</a></h3>
+      <h3><a href="#">PYTHON</a></h3>
+    </section>
     <!-- front page article -->
     <main>
       <h2>Have You Tried Turning It On and Off Again?</h2>
@@ -38,6 +39,7 @@
     </main>
     <!-- more articles -->
     <div class="more-articles">
+      <div class="newspaper-container"></div>
       <section>
         <h4>Tabs vs. Spaces</h4>
         <img src="assets/article-one.png" alt="placeholder">
