@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Link CSS to HTML</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Hacker Times</title>
 </head>
 <body>
@@ -17,29 +17,29 @@
       <h1>The Hacker Times</h1>
     </header>
     <!-- navigation -->
-    <section>
-    <div class="navigation-container"></div>
-      <h3><a href="#">HTML & CSS</a></h3>
-      <h3><a href="#">UX & UI</a></h3>
-      <h3><a href="#">JAVASCRIPT</a></h3>
-      <h3><a href="#">EXPRESS</a></h3>
-      <h3><a href="#">MONGODB</a></h3>
-      <h3><a href="#">REACT</a></h3>
-      <h3><a href="#">CYBERSECURITY</a></h3>
-      <h3><a href="#">PYTHON</a></h3>
-    </section>
+    <nav>
+    <ul>
+      <li><a href="#">HTML & CSS</a></li>
+      <li><a href="#">UX & UI</a></li>
+      <li><a href="#">JAVASCRIPT</a></li>
+      <li><a href="#">EXPRESS</a></li>
+      <li><a href="#">MONGODB</a></li>
+      <li><a href="#">REACT</a></li>
+      <li><a href="#">CYBERSECURITY</a></li>
+      <li><a href="#">PYTHON</a></li>
+      </ul>
+    </nav>
     <!-- front page article -->
     <main>
       <h2>Have You Tried Turning It On and Off Again?</h2>
       <h5>By Maurice Moss</h5>
-      <img src="assets/front-page-article.png" alt="placeholder">
+      <img class="big picture" src="assets/front-page-article.png" alt="placeholder">
       <p>
         Cupcake ipsum dolor sit amet. Candy gummies jelly-o pie toffee cheesecake pastry cake. Soufflé sesame snaps tootsie roll jelly-o soufflé tart gummies. Dessert lollipop halvah brownie chocolate bar gingerbread. Lollipop chocolate bar dragée jelly-o cookie tiramisu icing. Dragée muffin marshmallow jelly beans jelly beans. Tootsie roll pie cheesecake. Brownie biscuit gingerbread cupcake sweet roll sweet jelly-o cookie pie. Lemon drops topping lemon drops jelly beans toffee. Tiramisu cotton candy pie toffee cake chocolate cake apple pie. Cupcake bear claw donut apple pie halvah sesame snaps macaroon tootsie roll
         </p>
     </main>
     <!-- more articles -->
     <div class="more-articles">
-      <div class="newspaper-container"></div>
       <section>
         <h4>Tabs vs. Spaces</h4>
         <img src="assets/article-one.png" alt="placeholder">
@@ -50,7 +50,32 @@
         <img src="assets/article-two.png" alt="placeholder">
         <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
       </section>
+      </div>
+      <div class="grid-container">
+        <div class="grid-1">
+          <h4>Even More Tech News</h4>
+            <p>More tech news is fun to learn about. You can learn all sorts of new things today through our expert advisors.</p>
+        </div>
+        <div class="grid-2">
+           <h4>Tech Activities Schedule</h4>
+            <p>Schedule of activities for this month. Network with tons of other tech-industry professionals. Make friends & have fun, we will be serving coffee, beer, or wine at every event. </p>
+        </div>
+        <div class="grid-3">
+          <h4>Breaking News Tech</h4>
+            <p>All your most recent tech news.  Here is where you can find out all the cutting edge products and information in the tech industry!</p>
+        </div>
+      </div>
+      <div class="footer">
+        <ul>
+          <li><a href="https://www.nytimes.com/">NYT</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us">Contact US</a></li>
+          <li><a href="https://www.nytco.com/careers/">Work With Us</a></li>
+          <li><a href="https://advertising.nytimes.com/">Advertising</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service">Terms of Service</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us">Help</a></li>
+          <li><a href="https://www.nytimes.com/subscription?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
 </body>
 </html>
